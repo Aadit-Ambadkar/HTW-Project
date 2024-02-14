@@ -9,7 +9,7 @@ function mainTick() {
             if (introMessage === false) {
                 var my_name = getPlayer().name;
                 // write code here to get the player's name
-                world.sendMessage("Hello " + my_name + "! Tick: " + system.currentTick);
+                world.sendMessage("Hello " + "eeeee" + "! Tick: " + system.currentTick);
                 world.sendMessage("Get ready for hell!");
                 introMessage = true;
             }
