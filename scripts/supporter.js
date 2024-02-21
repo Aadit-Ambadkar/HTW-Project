@@ -17,6 +17,8 @@ export function summonHell(player) {
     if (playerDimension.id === "minecraft:overworld") {
         playerDimension.spawnEntity("minecraft:ender_dragon", playerLocation);
     }
+
+    var rand = "test";
 }
 
 
